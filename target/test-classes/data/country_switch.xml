@@ -1,0 +1,43 @@
+
+
+
+<Conf>
+    <Data environment="Staging">
+        <Pages>
+            <Page name="HomePage">
+                <URL>http://nemo-core-staging-mmdiabetes-preview.dev.cf.private.springer.com/</URL>
+                <Country>United States</Country>
+                <MenuItems>News and Expert Opinions, Society and Conference Coverage, Clinical Reference, Treatments, In Practice, Education, Slide Sets, Topic Links</MenuItems>
+            </Page>
+            <Page name = "NewsAndExpertOpinions">
+                <Date>08-26-2016</Date>
+            </Page>
+        </Pages>
+    </Data>
+    <Data environment="Staging">
+        <Pages>
+            <Page name="HomePage">
+                <URL>http://nemo-core-staging-mmdiabetes-preview.dev.cf.private.springer.com/</URL>
+                <Country>United Kingdom</Country>
+                <MenuItems>Kent, Dorset, Cornwall, Devon</MenuItems>
+            </Page>
+            <Page name = "NewsAndExpertOpinions">
+                <Date>26-08-2016</Date>
+            </Page>
+        </Pages>
+    </Data>
+
+    <Data environment="Staging">
+        <Pages>
+            <Page name="HomePage">
+                <URL>http://nemo-core-staging-mmdiabetes-preview.dev.cf.private.springer.com/</URL>
+                <Country>India</Country>
+                <MenuItems>Assam, Punjab, Goa, Delhi, Topic Page</MenuItems>
+            </Page>
+            <Page name = "NewsAndExpertOpinions">
+                <Date>26-08-2016</Date>
+            </Page>
+        </Pages>
+    </Data>
+
+</Conf>

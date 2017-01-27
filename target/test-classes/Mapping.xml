@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<Mapping>
+    <Package name="com.nemo.test" testData="data/country_switch.xml"
+             runStrategy="Optimal">
+        <Class name="com.nemo.test.CountrySwitch"
+               clientEnvironment="browsers/Safari.xml" testData="data/country_switch.xml">
+            <MethodName
+                    name="com.nemo.test.CountrySwitch.countrySwitchCheck"
+                    testData="data/country_switch.xml"/>
+
+        </Class>
+
+    </Package>
+</Mapping>

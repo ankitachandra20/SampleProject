@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="Springer.com Suite" verbose="0" parallel="tests"
+       thread-count="1" data-provider-thread-count="1">
+
+    <listeners>
+        <listener class-name="omelet.testng.support.TestInterceptor"></listener>
+        <listener class-name="omelet.support.saucelabs.SauceLabsIntegration"></listener>
+        <listener class-name="omelet.driver.DriverInitialization"></listener>
+        <listener class-name="omelet.testng.support.RetryIAnnotationTransformer"></listener>
+        <listener class-name="omelet.driver.SuiteConfiguration"></listener>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+    </listeners>
+
+
+    <test name="CountrySwtichTest" preserve-order="true" parallel="methods"
+          thread-count="1">
+        <classes>
+            <class name="com.nemo.test.CountrySwitch"></class>
+        </classes>
+    </test>
+</suite>
